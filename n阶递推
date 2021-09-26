@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+	int n, i, sum=1;
+	printf("请输入一个数值：");
+	scanf("%d", &n);
+	for(i=1; i<=n; i++)
+		sum*=i;
+	printf("%d!=%d\n", n,sum); 
+	return 0;
+}
